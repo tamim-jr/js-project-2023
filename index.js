@@ -15,10 +15,20 @@
 // name = name.toUpperCase();
 // name = name.toLocaleLowerCase();
 
-var myName = prompt("What is your Name");
-var firstPartName = myName.slice(0,1);
-var capitalName = firstPartName.toUpperCase();
-var lastPartName = myName.slice(1,myName.length);
-var smallLastPart = lastPartName.toLocaleLowerCase();
-var finalName = (capitalName + smallLastPart);
-alert("Your Name is " + finalName);
+// var myName = prompt("What is your Name");
+// var firstPartName = myName.slice(0,1);
+// var capitalName = firstPartName.toUpperCase();
+// var lastPartName = myName.slice(1,myName.length);
+// var smallLastPart = lastPartName.toLocaleLowerCase();
+// var finalName = (capitalName + smallLastPart);
+// alert("Your Name is " + finalName);
+
+// Dog age to Human age formula
+// human age = (dogAge -2) *4 +21
+// var dogAge = prompt("How old is your Dog?");
+// var humanAge = ((dogAge -2) *4) +21;
+// var outPut = alert("Your dog is " + humanAge + " years old in human years.");
+function getMilk() {
+    console.log("Go to Fridge and take a bottle of milk and give it to me.")
+}
+getMilk();
