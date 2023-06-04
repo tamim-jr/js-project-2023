@@ -28,7 +28,13 @@
 // var dogAge = prompt("How old is your Dog?");
 // var humanAge = ((dogAge -2) *4) +21;
 // var outPut = alert("Your dog is " + humanAge + " years old in human years.");
-function getMilk() {
-    console.log("Go to Fridge and take a bottle of milk and give it to me.")
-}
-getMilk();
+function getMilk(bottle) {
+    console.log("Go to Fridge");
+    console.log("Take " + bottle + " bottles of milk");    
+    console.log("and give it to me");}
+getMilk(2);
+
+function getMilk(bottle) {
+    console.log("Go to Shop and");
+    console.log("give " + (bottle * 1.5) + " USD for all bottles of milk");    console.log("and give it to me");}
+getMilk(2);
