@@ -1,0 +1,33 @@
+function ageCal(age){
+    var months = age * 12;
+    var days = age * 365;
+    var hours = age * 24 * 365;
+
+    console.log("Your age is " + months +" months "+ days +" days and "+ hours +" hours")
+}
+ageCal()
+
+
+//bmi calculetor
+function bmCalculetorValue(wight, hight){
+    // bmiCal = wight / (hight * hight); 
+    bmiCal = wight / Math.pow(hight, 2); 
+    return Math.round(bmiCal);
+    console.log(bmiCal); 
+}
+
+bmCalculetorValue(69, 1.8);
+
+//random numbers
+
+var n = Math.random();
+n = n * 6;
+n = Math.floor(n);
+
+
+//pseudo random number
+
+var n = Math.random();
+n = Math.floor((n * 6) + 1);
+console.log (n);
+
