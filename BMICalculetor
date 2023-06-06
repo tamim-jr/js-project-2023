@@ -31,3 +31,14 @@ var n = Math.random();
 n = Math.floor((n * 6) + 1);
 console.log (n);
 
+var male = firstInput(numa);
+firstInput(5);
+var female = lastInput(numb);
+lastInput(6)
+
+var total = (male + female);
+
+var randomNumber = Math.random(total);
+var output = Math.floor((randomNumber * 100) + 1);
+return output;
+console.log (output);

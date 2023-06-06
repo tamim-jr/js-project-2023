@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
+
 <body>
-    <h1>JS Project</h1>
+    <div class="container">
+        <h1>Love Calculator</h1>
+        <div class="form-group">
+            <label for="person1">Person 1 Name:</label>
+            <input type="text" id="person1" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label for="person2">Person 2 Name:</label>
+            <input type="text" id="person2" placeholder="Enter name">
+        </div>
+        <button class="btn" onclick="calculateLovePercentage()">Calculate</button>
+        <p class="result" id="result"></p>
+    </div>
+        
 </body>
+
 </html>

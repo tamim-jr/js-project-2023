@@ -1,0 +1,16 @@
+// Function to calculate the love percentage
+function calculateLovePercentage(person1, person2) {
+  var lovePercentage = Math.floor(Math.random() * 101); // Generate a random number between 0 and 100
+  return lovePercentage;
+}
+
+// Example usage
+// var person1 = "Tamim";
+// var person2 = "Orin";
+
+var person1 = prompt("Type your Name");
+var person2 = prompt("Type your Lovers Name");
+
+var lovePercentage = calculateLovePercentage(person1, person2);
+console.log(person1 + " and " + person2 + " love percentage is " + lovePercentage + "%");
+alert(person1 + " and " + person2 + " love percentage is " + lovePercentage + "%");
